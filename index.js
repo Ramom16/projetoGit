@@ -1,2 +1,3 @@
-let Nome = prompt("Qual é o seu nome?");
-alert ("O seu nome é "+ Nome);
+let nome;
+nome =String(prompt("Digite seu nome: "));
+alert(`Boas vindas ${nome}!`);
